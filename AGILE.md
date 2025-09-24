@@ -15,7 +15,7 @@ Comme au théâtre où le metteur en scène jongle entre budget, ressources huma
 - Ressources : l'équipe et les compétences disponibles
 - Délais : les contraintes temporelles à respecter
 
-### Évolution des Méthodes**
+### Évolution des Méthodes
 
 Méthode en Cascade (Waterfall) : Comme une pièce classique avec ses actes séquentiels définis à l'avance, cette approche suit un déroulement linéaire rigide.
 
