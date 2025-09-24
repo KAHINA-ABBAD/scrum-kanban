@@ -1,15 +1,13 @@
-```
-undefined
-gantt
-title Plan de Sprints – Identification des insectes
-dateFormat YYYY-MM-DD
-section Sprint 1
-Pipeline collecte vidéo :a1, 2025-09-29, 7d
-section Sprint 2
-Jeu de données annoté :a2, 2025-10-06, 7d
-section Sprint 3
-Entraînement et validation :a3, 2025-10-13, 7d
-section Sprint 4
-Détection & notifications :a4, 2025-10-20, 7d
-undefined
+```markdown
+# Diagramme de Gantt - Exemple
+
+| Tâche                | Début      | Fin        | Semaine 1 | Semaine 2 | Semaine 3 | Semaine 4 |
+|----------------------|------------|------------|-----------|-----------|-----------|-----------|
+| Analyse des besoins  | 01/07/2024 | 05/07/2024 | █████     |           |           |           |
+| Conception           | 06/07/2024 | 12/07/2024 |     █████ |           |           |           |
+| Développement        | 13/07/2024 | 19/07/2024 |           | █████     |           |           |
+| Tests                | 20/07/2024 | 26/07/2024 |           |     █████ |           |           |
+| Livraison            | 27/07/2024 | 31/07/2024 |           |           | ███       |           |
+
+_Légende : █ = période d'activité_
 ```

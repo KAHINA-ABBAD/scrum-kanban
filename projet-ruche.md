@@ -27,6 +27,9 @@ Equipe de développement :
 ----|--------------------------------------------------------------------------|------------------------|----------|-------|
   2 |		                                                                   |                        |          |       |
 
+## 4. Planning meeting - Romuald
+Gant, gestion des sprint, etc...
+
 ## 4. Sprint Planning - Romuald
 
 Sprint courant :
