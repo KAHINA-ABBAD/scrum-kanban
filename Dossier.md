@@ -99,27 +99,27 @@ Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de
 ```mermaid
 
 gantt
-    title Gantt MVP - Detection Automatisee des Frelons Asiatiques (4 Sprints)
+   title Gantt MVP - Detection Automatisee des Frelons Asiatiques (4 Sprints)
     dateFormat YYYY-MM-DD
     axisFormat %d/%m
 
-    section Sprint 1 Infrastructure video (01-08 Sept)
-    Installation camera et pipeline        :done,    cam1, 2025-09-01, 7d
-    Tests resistance intemperies           :done,    test1, 2025-09-06, 2d
+    section Sprint 1 TERMINE (01-08 Sept)
+    Installation camera pipeline           :done,    cam1, 2025-09-01, 7d
+    Tests resistance                       :done,    test1, 2025-09-06, 2d
 
-    section Sprint 2 IA classification (09-15 Sept)
-    Constitution dataset et annotation     :done,    data1, 2025-09-09, 3d
-    Entrainement modele IA                 :done,    model1, 2025-09-12, 4d
+    section Sprint 2 TERMINE (09-15 Sept)
+    Dataset annotation                     :done,    data1, 2025-09-09, 3d
+    Entrainement IA                        :done,    model1, 2025-09-12, 4d
 
-    section Sprint 3 Alertes et dashboard (16-22 Sept)
+    section Sprint 3 EN COURS (16-22 Sept)
     Notifications mail SMS                 :active,  notif1, 2025-09-16, 3d
     Push mobile                            :active,  notif2, 2025-09-19, 2d
-    Dashboard web final                    :active,  dash2, 2025-09-20, 3d
+    Dashboard web                          :active,  dash2, 2025-09-20, 3d
 
-    section Sprint 4 Finalisation MVP (23-29 Sept)
+    section Sprint 4 A VENIR (23-29 Sept)
     Capture photo intrus                   :        photo1, 2025-09-23, 2d
     Filtrage meteo                         :        filt1, 2025-09-25, 3d
-    Documentation et tests                 :        doc1, 2025-09-26, 3d
+    Documentation tests                    :        doc1, 2025-09-26, 3d
 
 ```
 
