@@ -3,7 +3,7 @@
 # Sommaire
 - [Projet SCRUM - Détection d’attaques de frelons](#projet-scrum---détection-dattaques-de-frelons)
 - [Sommaire](#sommaire)
-- [1. Contexte et organisation](#1-contexte-et-organisation)
+- [1. Contexte](#1-contexte)
   - [Organisation Scrum : rôles et missions](#organisation-scrum--rôles-et-missions)
 - [2. Product Backlog détaillé](#2-product-backlog-détaillé)
 - [3. Planning Meeting](#3-planning-meeting)
@@ -26,7 +26,7 @@
     - [Communication d’équipe](#communication-déquipe)
  
 
-# 1. Contexte et organisation  
+# 1. Contexte  
 
 Le projet vise à développer un système innovant de détection automatique des attaques de frelons asiatiques et européens sur des ruches d’abeilles. Ce système doit permettre aux apiculteurs de recevoir des alertes en temps réel et de consulter des statistiques précises pour mieux protéger leurs colonies. Le développement s’inscrit dans une démarche agile Scrum pour une livraison rapide et incrémentale de valeur métier.
 
@@ -43,7 +43,7 @@ Le projet vise à développer un système innovant de détection automatique des
 
 # 2. Product Backlog détaillé 
 
-| Priorité | User Story                                 | Critères d’acceptation clés                                  | Definition of Done                                     | Story Points | Timebox estimé         |
+| Priorité | User Story                                 | Story Points| Critères d’acceptation clés                                  | Definition of Done                                     | Difficulté | Timebox estimé         |
 |----------|--------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|--------------|-----------------------|
 | 1        | US1 - Identification Frelon (Asiatique/Européen) | - Précision ≥85% sur jeu test                                 | - Modèle intégré dans pipeline et fonctionnel                    | 8            | 7 à 10 jours          |
 |          |                                            | - Classification fiable des 2 types                          | - Validation PO réalisée                                         |              |                       |
@@ -95,17 +95,32 @@ Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de
 | Semaine 3 | Alertes et dashboard               | US3, US4                      | Notifications fonctionnelles, dashboard accessible  |
 | Semaine 4 | Finalisation MVP et déploiement   | US5, US6                      | Photo intrus, tests 72h, documentation livrée       |
 
-```markdown
-# Diagramme de Gantt - Exemple
 
-| Tâche                             | Début      | Fin        | Semaine 1 | Semaine 2 | Semaine 3 | Semaine 4 |
-|-----------------------------------|------------|------------|-----------|-----------|-----------|-----------|
-| Infrastructure vidéo et pipeline  | 01/09/2025 | 05/09/2025 |███████████|           |           |           |
-| IA classification des frelons     | 08/09/2025 | 12/09/2025 |           |███████████|           |           |
-| Alertes et Dashboard              | 15/09/2025 | 19/09/2025 |           |           |███████████|           |
-| Finalisation MVP et déploiement   | 22/09/2025 | 26/09/2025 |           |           |           |███████████|
+```mermaid
 
-    Légende : █ = période d'activité_
+gantt
+    title Projet SCRUM - Detection attaques frelons
+    dateFormat YYYY-MM-DD
+    axisFormat %d/%m
+
+    section Sprint 1 Infrastructure video
+    Installation camera et pipeline :done, cam1, 2025-09-25, 7d
+
+    section Sprint 2 IA classification
+    Constitution dataset et annotation :active, data1, 2025-10-02, 5d
+    Entrainement modele IA :model1, after data1, 5d
+    Preparation dashboard :dash1, 2025-10-04, 3d
+
+    section Sprint 3 Alertes et dashboard
+    Notifications mail SMS :notif1, 2025-10-09, 4d
+    Push mobile :notif2, after notif1, 3d
+    Dashboard web final :dash2, 2025-10-10, 4d
+
+    section Sprint 4 Finalisation MVP
+    Capture photo intrus :photo1, 2025-10-16, 5d
+    Filtrage meteo :filt1, after photo1, 5d
+    Documentation tests :doc1, 2025-10-17, 5d
+
 ```
 
 ---
