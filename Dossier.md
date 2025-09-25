@@ -95,19 +95,19 @@ Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de
 | Semaine 3 | Alertes et dashboard               | US3, US4                      | Notifications fonctionnelles, dashboard accessible  |
 | Semaine 4 | Finalisation MVP et déploiement   | US5, US6                      | Photo intrus, tests 72h, documentation livrée       |
 
-
 ```markdown
-# Diagramme de Gantt
+# Diagramme de Gantt - Exemple
 
-| Tâche                             | Stories sélectionnées | Début      | Fin        | Semaine 1 | Semaine 2 | Semaine 3 | Semaine 4 | Definition of Done |
-|-----------------------------------|-----------------------|------------|------------|-----------|-----------|-----------|-----------|-------------------|
-| Infrastructure vidéo et pipeline  | US1                   | 01/09/2025 | 05/09/2025 | █████     |           |           |           | Caméra robuste, flux vidéo stable, tests météo validés |
-| IA classification des frelons     | US2                   | 08/09/2025 | 12/07/2025 |     █████ |           |           |           | Modèle IA précision >85%, intégré et testé |
-| Alertes et dashboard              | US3, US4              | 15/09/2025 | 20/07/2025 |           | █████     |           |           | Notifications fonctionnelles, dashboard accessible  |
-| Finalisation MVP et déploiement   | US5, US6              | 23/09/2025 | 27/07/2025 |           |     █████ |           |           | Photo intrus, tests 72h, documentation livrée       |
+| Tâche                             | Début      | Fin        | Semaine 1 | Semaine 2 | Semaine 3 | Semaine 4 |
+|-----------------------------------|------------|------------|-----------|-----------|-----------|-----------|
+| Infrastructure vidéo et pipeline  | 01/09/2025 | 05/09/2025 |███████████|           |           |           |
+| IA classification des frelons     | 08/09/2025 | 12/09/2025 |           |███████████|           |           |
+| Alertes et Dashboard              | 15/09/2025 | 19/09/2025 |           |           |███████████|           |
+| Finalisation MVP et déploiement   | 22/09/2025 | 26/09/2025 |           |           |           |███████████|
 
     Légende : █ = période d'activité_
 ```
+
 ---
 
 ## Rituels Scrum planifiés  
