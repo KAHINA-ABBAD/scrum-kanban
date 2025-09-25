@@ -22,10 +22,8 @@ Equipe de développement :
 ## 3. Backlog Produit (User Stories) - Olivier
 
 '#' |	User Story	                                                           | Critères d’acceptation | Priorité | Notes |
-----|--------------------------------------------------------------------------|------------------------|----------|-------|
-  1 |	En tant qu’apiculteur, je veux une alerte en cas d’attaque de frelon...|	                    |          |       |
-----|--------------------------------------------------------------------------|------------------------|----------|-------|
-  2 |		                                                                   |                        |          |       |
+----|------------------------------------------------------------------------|------------------------|----------|-------|
+  1 |	En tant qu’apiculteur, je veux une alerte en cas d’attaque de frelon...|	                      |          |       |  2 |		                                                                     |                        |          |       |
 
 ## 4. Sprint Planning - Romuald
 
