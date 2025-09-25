@@ -72,7 +72,9 @@ Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de
 
 # 3. Planning Meeting  
 
-**Date : [Insérer la date du meeting]**  
+*Début du Planning Meeting*
+
+**Date : 01/09/2025**  
 **Participants : Olivier (PO), Romuald (Scrum Master), Kahina (Développeur)**
 
 ---
