@@ -34,6 +34,8 @@ Sprint courant :
 - (Ex : durée, objectifs principaux, user stories sélectionnées)
 Tâches à réaliser :
 
+## 4. Sprint Backlog
+
 ## 5. Daily Scrum - Kahina
 
 Avancement :
@@ -65,3 +67,26 @@ Scénarios d’attaque simultanée / multiples ruches :
 Gestion des alertes et du reporting :
 
 
+
+
+
+
+
+
+PBI --> User Stories --> Story Points x timebox --> Ingénieur avec 2 ans d'experience
+
+Nos produit Backlog (PB)
+Priorité 1
+- US1 - Identification Frelon (Asiatique/Européen)
+- US2 - Dashboard Statistiques Quotidiens- US3 - 
+- US3 - Alerte Immédiate (Mail/SMS)
+- US4 - Alerte Immédiate
+- US5 - Capture Photo Intrus
+
+Priorité 2
+- US6 - Filtrage météo (éviter faux positifs pluie/vent/feuilles)
+- US7 - Gestion nuage d'abeilles / dédoublement de ruche
+
+Priorité 3
+- US8 - Triangulation position du Nid
+- US9 - Détection de plusieurs Nid

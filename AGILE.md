@@ -135,9 +135,9 @@ Questions centrales :
 
 ### Product Backlog - Le Script Évolutif
 
-Liste ordonnée et priorisée de toutes les fonctionnalités souhaitées (Product Backlog Items (PBI) :
-- User Stories : Expressions de besoins utilisateurs, sous forme « En tant que… je veux… afin de… ».
-- Épopées (Epics) : Grandes user stories, découpées ensuite en éléments plus petits.
+Liste ordonnée et priorisée de toutes les fonctionnalités souhaitées (Product Backlog Items (PBI)) :
+- Épopées (Epics) : Grandes user stories, découpées ensuite en éléments plus petits
+- User Stories : Expressions de besoins utilisateurs, sous forme « En tant que… je veux… afin de… avec...».
 - Fonctionnalités (Features) : Capacités ou services distincts du produit.
 - Tâches techniques ou Bugs : Eléments techniques nécessaires ou corrections à apporter.
 

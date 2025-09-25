@@ -1,7 +1,7 @@
 # Planning Meeting - Projet Détection Attaques Frelons  
 **Date :** [Date du meeting]  
 **Présents :** [Noms des participants]  
-**Durée :** [Durée estimée]  
+**Durée :** 2h
 
 ---
 
