@@ -43,8 +43,8 @@ Le projet vise à développer un système innovant de détection automatique des
 
 # 2. Product Backlog détaillé 
 
-| Priorité | User Story                                 | Story Points| Critères d’acceptation clés                                  | Definition of Done                                     | Difficulté | Timebox estimé         |
-|----------|--------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|--------------|-----------------------|
+| Priorité | User Story | Critères d’acceptation clés | Definition of Done | Difficulté | Timebox estimé |
+|----------|------------|--------------|-----------------------------|--------------------|------------|
 | 1        | US1 - Identification Frelon (Asiatique/Européen) | - Précision ≥85% sur jeu test                                 | - Modèle intégré dans pipeline et fonctionnel                    | 8            | 7 à 10 jours          |
 |          |                                            | - Classification fiable des 2 types                          | - Validation PO réalisée                                         |              |                       |
 |          |                                            |                                                              | - Code review effectué, tests automatisés réussis                |              |                       |
@@ -103,23 +103,23 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %d/%m
 
-    section Sprint 1 TERMINE (01-08 Sept)
+    section Infrastructure vidéo et pipeline 
     Installation camera pipeline           :done,    cam1, 2025-09-01, 7d
     Tests resistance                       :done,    test1, 2025-09-06, 2d
 
-    section Sprint 2 TERMINE (09-15 Sept)
+    section IA classification des frelons 
     Dataset annotation                     :done,    data1, 2025-09-09, 3d
     Entrainement IA                        :done,    model1, 2025-09-12, 4d
 
-    section Sprint 3 EN COURS (16-22 Sept)
-    Notifications mail SMS                 :active,  notif1, 2025-09-16, 3d
-    Push mobile                            :active,  notif2, 2025-09-19, 2d
-    Dashboard web                          :active,  dash2, 2025-09-20, 3d
+    section Alertes et dashboard 
+    Notifications mail SMS                 :done,  notif1, 2025-09-16, 3d
+    Push mobile                            :done,  notif2, 2025-09-19, 2d
+    Dashboard web                          :done,  dash2, 2025-09-20, 3d
 
-    section Sprint 4 A VENIR (23-29 Sept)
-    Capture photo intrus                   :        photo1, 2025-09-23, 2d
-    Filtrage meteo                         :        filt1, 2025-09-25, 3d
-    Documentation tests                    :        doc1, 2025-09-26, 3d
+    section Finalisation MVP    et déploiement
+    Capture photo intrus                   :active,  photo1, 2025-09-23, 2d
+    Filtrage meteo                         :active,  filt1, 2025-09-25, 3d
+    Documentation tests                    :active,  doc1, 2025-09-26, 3d
 
 ```
 
