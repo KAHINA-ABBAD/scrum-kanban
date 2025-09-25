@@ -23,9 +23,7 @@ Equipe de développement :
 
 '#' |	User Story	                                                           | Critères d’acceptation | Priorité | Notes |
 ----|--------------------------------------------------------------------------|------------------------|----------|-------|
-  1 |	En tant qu’apiculteur, je veux une alerte en cas d’attaque de frelon...|	                    |          |       |
-----|--------------------------------------------------------------------------|------------------------|----------|-------|
-  2 |		                                                                   |                        |          |       |
+  1 |	En tant qu’apiculteur, je veux une alerte en cas d’attaque de frelon...|	                    |          |       |  2 |		                                                                   |                        |          |       |
 
 ## 4. Planning meeting - Romuald
 Gant, gestion des sprint, etc...
