@@ -1,91 +1,65 @@
 # Scrum en Théâtre – Cours Structuré Chronologiquement <!-- omit in toc -->
 
 # Sommaire <!-- omit in toc -->
-- [1. Introduction](#1-introduction)
-  - [Contexte du projet](#contexte-du-projet)
-  - [Objectif du projet](#objectif-du-projet)
-  - [Problématique à résoudre](#problématique-à-résoudre)
-- [2. Contexte et Fondamentaux – Les Bases du Spectacle](#2-contexte-et-fondamentaux--les-bases-du-spectacle)
+- [1. Contexte et Fondamentaux – Les Bases du Spectacle](#1-contexte-et-fondamentaux--les-bases-du-spectacle)
     - [Le Triangle d'Or de la Gestion de Projet](#le-triangle-dor-de-la-gestion-de-projet)
     - [Évolution des Méthodes de Gestion de Projet](#évolution-des-méthodes-de-gestion-de-projet)
-- [3. Les Valeurs Fondamentales de Scrum – L'Âme de la Troupe](#3-les-valeurs-fondamentales-de-scrum--lâme-de-la-troupe)
-- [4. Les Trois Piliers de Scrum – Architecture du Processus](#4-les-trois-piliers-de-scrum--architecture-du-processus)
-- [5. L'Équipe Scrum – Distribution des Rôles Avant le Lever de Rideau](#5-léquipe-scrum--distribution-des-rôles-avant-le-lever-de-rideau)
+- [2. Les Valeurs Fondamentales de Scrum – L'Âme de la Troupe](#2-les-valeurs-fondamentales-de-scrum--lâme-de-la-troupe)
+- [3. Les Trois Piliers de Scrum – Architecture du Processus](#3-les-trois-piliers-de-scrum--architecture-du-processus)
+- [4. L'Équipe Scrum – Distribution des Rôles Avant le Lever de Rideau](#4-léquipe-scrum--distribution-des-rôles-avant-le-lever-de-rideau)
   - [Le Product Owner (PO) – Le Directeur Artistique](#le-product-owner-po--le-directeur-artistique)
   - [Le Scrum Master (SM) – Le Régisseur de Production](#le-scrum-master-sm--le-régisseur-de-production)
   - [L'Équipe de Développement – La Troupe Créative](#léquipe-de-développement--la-troupe-créative)
-- [6. Les Artefacts Scrum – Décors et Accessoires de la Production](#6-les-artefacts-scrum--décors-et-accessoires-de-la-production)
+- [5. Les Artefacts Scrum – Décors et Accessoires de la Production](#5-les-artefacts-scrum--décors-et-accessoires-de-la-production)
   - [Product Backlog – Le Script Évolutif en Perpétuelle Réécriture](#product-backlog--le-script-évolutif-en-perpétuelle-réécriture)
   - [Sprint Backlog – La Feuille de Route du Spectacle en Cours](#sprint-backlog--la-feuille-de-route-du-spectacle-en-cours)
   - [Incrément – La Performance Livrée au Public](#incrément--la-performance-livrée-au-public)
-- [7. Le Cycle Scrum – Déroulement Chronologique du Projet](#7-le-cycle-scrum--déroulement-chronologique-du-projet)
+- [6. Le Cycle Scrum – Déroulement Chronologique du Projet](#6-le-cycle-scrum--déroulement-chronologique-du-projet)
   - [Le Sprint – L'Acte Théâtral Principal](#le-sprint--lacte-théâtral-principal)
   - [Sprint Planning – La Répétition Générale Avant la Représentation](#sprint-planning--la-répétition-générale-avant-la-représentation)
   - [Daily Scrum – L'Échauffement Quotidien de la Troupe](#daily-scrum--léchauffement-quotidien-de-la-troupe)
   - [Sprint Review – La Représentation Devant le Public](#sprint-review--la-représentation-devant-le-public)
   - [Sprint Retrospective – Le Débriefing Artistique de la Troupe](#sprint-retrospective--le-débriefing-artistique-de-la-troupe)
-- [8. Outils et Techniques de Support – La Machinerie du Spectacle](#8-outils-et-techniques-de-support--la-machinerie-du-spectacle)
+- [7. Outils et Techniques de Support – La Machinerie du Spectacle](#7-outils-et-techniques-de-support--la-machinerie-du-spectacle)
   - [Méthode Kanban – Le Tableau de Régie Visuel](#méthode-kanban--le-tableau-de-régie-visuel)
   - [Burndown Chart – Le Graphique de Performance du Sprint](#burndown-chart--le-graphique-de-performance-du-sprint)
   - [Outils Numériques de Gestion](#outils-numériques-de-gestion)
   - [Story Points et Techniques d'Estimation](#story-points-et-techniques-destimation)
-- [9. Concepts Clés Complémentaires – Techniques Avancées de la Troupe](#9-concepts-clés-complémentaires--techniques-avancées-de-la-troupe)
+- [8. Concepts Clés Complémentaires – Techniques Avancées de la Troupe](#8-concepts-clés-complémentaires--techniques-avancées-de-la-troupe)
   - [Definition of Done (DoD) – Le Standard de Qualité Absolu](#definition-of-done-dod--le-standard-de-qualité-absolu)
   - [Vélocité de l'Équipe – La Mesure de la Performance Collective](#vélocité-de-léquipe--la-mesure-de-la-performance-collective)
   - [Reste à Livrer (RAL) et Gestion des Releases](#reste-à-livrer-ral-et-gestion-des-releases)
   - [Concepts Avancés](#concepts-avancés)
-- [10. Mise en Pratique Théâtrale – Ateliers et Jeux de Rôle Immersifs](#10-mise-en-pratique-théâtrale--ateliers-et-jeux-de-rôle-immersifs)
+- [9. Mise en Pratique Théâtrale – Ateliers et Jeux de Rôle Immersifs](#9-mise-en-pratique-théâtrale--ateliers-et-jeux-de-rôle-immersifs)
   - [Projet SCRUM - Détection d’attaques de frelons](#projet-scrum---détection-dattaques-de-frelons)
-    - [1. Contexte](#1-contexte)
+    - [9.1 Introduction](#91-introduction)
+      - [Contexte du projet](#contexte-du-projet)
+      - [Objectif du projet](#objectif-du-projet)
+      - [Problématique à résoudre](#problématique-à-résoudre)
       - [Organisation Scrum : rôles et missions](#organisation-scrum--rôles-et-missions)
-    - [2. Product Backlog détaillé](#2-product-backlog-détaillé)
-    - [3. Planning Meeting](#3-planning-meeting)
+    - [9.2 Product Backlog détaillé](#92-product-backlog-détaillé)
+    - [9.3 Planning Meeting](#93-planning-meeting)
       - [Objectifs du Planning Meeting](#objectifs-du-planning-meeting)
       - [Découpage en Sprints](#découpage-en-sprints)
       - [Rituels Scrum planifiés](#rituels-scrum-planifiés)
       - [Outils de suivi retenus](#outils-de-suivi-retenus)
       - [Questions clés et réponses anticipées](#questions-clés-et-réponses-anticipées)
       - [Prochaines étapes](#prochaines-étapes)
-    - [4. Sprints Planning](#4-sprints-planning)
+    - [9.4 Sprints Planning](#94-sprints-planning)
       - [Sprint 1 : Infrastructure vidéo et pipeline](#sprint-1--infrastructure-vidéo-et-pipeline)
       - [Sprint 2 : IA de détection et classification](#sprint-2--ia-de-détection-et-classification)
       - [Sprint 3 : Alertes et dashboard](#sprint-3--alertes-et-dashboard)
       - [Sprint 4 : Finalisation MVP et déploiement](#sprint-4--finalisation-mvp-et-déploiement)
-    - [5. Sprint Review - Fin du cycle de 4 semaines](#5-sprint-review---fin-du-cycle-de-4-semaines)
-    - [6. Sprint Retrospective - Fin du cycle de 4 semaines](#6-sprint-retrospective---fin-du-cycle-de-4-semaines)
-    - [7. Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)](#7-sprint-review-hebdomadaire-exemple-pour-sprint-2--ia-de-classification)
-    - [8. FAQ et Points sensibles à discuter](#8-faq-et-points-sensibles-à-discuter)
+    - [9.5 Sprint Review - Fin du cycle de 4 semaines](#95-sprint-review---fin-du-cycle-de-4-semaines)
+    - [9.6 Sprint Retrospective - Fin du cycle de 4 semaines](#96-sprint-retrospective---fin-du-cycle-de-4-semaines)
+    - [9.7 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)](#97-sprint-review-hebdomadaire-exemple-pour-sprint-2--ia-de-classification)
+    - [9.8 FAQ et Points sensibles à discuter](#98-faq-et-points-sensibles-à-discuter)
       - [Gestion des risques](#gestion-des-risques)
       - [Communication d’équipe](#communication-déquipe)
 
 ---
 
-# 1. Introduction
-
-## Contexte du projet
-
-L’apiculture est menacée par deux prédateurs : le frelon asiatique (Vespa velutina) et le frelon européen (Vespa crabro). Le frelon asiatique est particulièrement destructeur : il attaque les abeilles devant la ruche, les décapite et rapporte les morceaux dans son nid, affaiblissant rapidement la colonie.
-
-L’objectif de ce projet est de développer un système intelligent de surveillance basé sur caméras, capteurs et IA pour détecter automatiquement les attaques, alerter les apiculteurs et fournir des statistiques fiables sur les menaces.
-
-## Objectif du projet
-
-- Détecter automatiquement les frelons (asiatiques et européens).
-- Identifier et tracer la trajectoire de fuite (ruche → nid).
-- Capturer une photo du frelon pour confirmer l’espèce.
-- Réduire les faux positifs dus à la météo ou aux nuages d’abeilles.
-- Fournir un tableau de bord quotidien avec statistiques et alertes.
-
-## Problématique à résoudre
-
-- Comment assurer une détection fiable malgré vent, pluie ou mouvements massifs d’abeilles ?
-- Comment distinguer frelon asiatique et frelon européen ?
-- Comment tracer la trajectoire vers le nid (et détecter plusieurs nids) ?
-- Comment fournir à l’apiculteur des alertes simples et des statistiques utiles ?
-
----
-
-# 2. Contexte et Fondamentaux – Les Bases du Spectacle
+# 1. Contexte et Fondamentaux – Les Bases du Spectacle
 
 ### Le Triangle d'Or de la Gestion de Projet
 
@@ -109,7 +83,7 @@ Cette triple contrainte impose des arbitrages constants, car modifier l'un des �
 
 ---
 
-# 3. Les Valeurs Fondamentales de Scrum – L'Âme de la Troupe
+# 2. Les Valeurs Fondamentales de Scrum – L'Âme de la Troupe
 
 Avant de commencer tout projet Scrum, l'équipe doit s'approprier cinq valeurs fondamentales qui constituent l'âme de cette méthode, comme les émotions fondamentales qui animent tout acteur sur scène.
 
@@ -133,7 +107,7 @@ Transparence et communication authentique avec l'équipe et les parties prenante
 
 Valoriser les opinions, compétences et contributions de chacun, créant un environnement de confiance mutuelle. Le respect se traduit par l'écoute active, la reconnaissance des expertises diverses, et la construction collective des solutions plutôt que leur imposition.
 
-# 4. Les Trois Piliers de Scrum – Architecture du Processus
+# 3. Les Trois Piliers de Scrum – Architecture du Processus
 
 Ces piliers, inspirés du contrôle empirique des processus, structurent la méthode comme les fondations d'un théâtre solide :
 
@@ -145,7 +119,7 @@ Ces piliers, inspirés du contrôle empirique des processus, structurent la mét
 
 ---
 
-# 5. L'Équipe Scrum – Distribution des Rôles Avant le Lever de Rideau
+# 4. L'Équipe Scrum – Distribution des Rôles Avant le Lever de Rideau
 
 ## Le Product Owner (PO) – Le Directeur Artistique
 
@@ -188,7 +162,7 @@ L'équipe de développement regroupe tous les professionnels nécessaires à la 
 
 ---
 
-# 6. Les Artefacts Scrum – Décors et Accessoires de la Production
+# 5. Les Artefacts Scrum – Décors et Accessoires de la Production
 
 ## Product Backlog – Le Script Évolutif en Perpétuelle Réécriture
 
@@ -244,7 +218,7 @@ L'Incrément représente la somme de tous les éléments du Product Backlog term
 
 ---
 
-# 7. Le Cycle Scrum – Déroulement Chronologique du Projet
+# 6. Le Cycle Scrum – Déroulement Chronologique du Projet
 
 ## Le Sprint – L'Acte Théâtral Principal
 
@@ -388,7 +362,7 @@ La Sprint Retrospective conclut le Sprint par une réflexion collective sur le p
 
 ---
 
-# 8. Outils et Techniques de Support – La Machinerie du Spectacle
+# 7. Outils et Techniques de Support – La Machinerie du Spectacle
 
 ## Méthode Kanban – Le Tableau de Régie Visuel
 
@@ -491,7 +465,7 @@ Cette progression non-linéaire reflète l'incertitude croissante pour les tâch
 
 ---
 
-# 9. Concepts Clés Complémentaires – Techniques Avancées de la Troupe
+# 8. Concepts Clés Complémentaires – Techniques Avancées de la Troupe
 
 ## Definition of Done (DoD) – Le Standard de Qualité Absolu
 
@@ -582,13 +556,34 @@ Sprint dédié à la stabilisation et à la préparation du déploiement. À év
 
 ---
 
-# 10. Mise en Pratique Théâtrale – Ateliers et Jeux de Rôle Immersifs
+# 9. Mise en Pratique Théâtrale – Ateliers et Jeux de Rôle Immersifs
+
+---
 
 ## Projet SCRUM - Détection d’attaques de frelons  
 
-### 1. Contexte  
+### 9.1 Introduction
 
-Le projet vise à développer un système innovant de détection automatique des attaques de frelons asiatiques et européens sur des ruches d’abeilles. Ce système doit permettre aux apiculteurs de recevoir des alertes en temps réel et de consulter des statistiques précises pour mieux protéger leurs colonies. Le développement s’inscrit dans une démarche agile Scrum pour une livraison rapide et incrémentale de valeur métier.
+#### Contexte du projet
+
+L’apiculture est menacée par deux prédateurs : le frelon asiatique (Vespa velutina) et le frelon européen (Vespa crabro). Le frelon asiatique est particulièrement destructeur : il attaque les abeilles devant la ruche, les décapite et rapporte les morceaux dans son nid, affaiblissant rapidement la colonie.
+
+L’objectif de ce projet est de développer un système intelligent de surveillance basé sur caméras, capteurs et IA pour détecter automatiquement les attaques, alerter les apiculteurs et fournir des statistiques fiables sur les menaces.
+
+#### Objectif du projet
+
+- Détecter automatiquement les frelons (asiatiques et européens).
+- Identifier et tracer la trajectoire de fuite (ruche → nid).
+- Capturer une photo du frelon pour confirmer l’espèce.
+- Réduire les faux positifs dus à la météo ou aux nuages d’abeilles.
+- Fournir un tableau de bord quotidien avec statistiques et alertes.
+
+#### Problématique à résoudre
+
+- Comment assurer une détection fiable malgré vent, pluie ou mouvements massifs d’abeilles ?
+- Comment distinguer frelon asiatique et frelon européen ?
+- Comment tracer la trajectoire vers le nid (et détecter plusieurs nids) ?
+- Comment fournir à l’apiculteur des alertes simples et des statistiques utiles ?
 
 #### Organisation Scrum : rôles et missions  
 
@@ -601,7 +596,7 @@ Le projet vise à développer un système innovant de détection automatique des
 - **Équipe de développement : Kahina (et autres membres)**  
   Responsable de la réalisation technique, elle conçoit, développe, teste et intègre les fonctionnalités. L’équipe est auto-organisée et collabore étroitement avec le PO pour livrer les User Stories définies dans le sprint.
 
-### 2. Product Backlog détaillé 
+### 9.2 Product Backlog détaillé 
 
 | Priorité | User Story | Critères d’acceptation clés | Definition of Done | Story Points | Timebox estimé |
 |----------|------------|--------------|-----------------------------|--------------------|------------|
@@ -630,7 +625,7 @@ Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de
 
 ---
 
-### 3. Planning Meeting  
+### 9.3 Planning Meeting  
 
 *Début du Planning Meeting*
 
@@ -691,23 +686,17 @@ gantt
 - **Sprint Planning:** lundi 9h-10h  
 - **Daily Scrum:** 15 minutes chaque jour à 9h30  
 - **Sprint Review:** dernier jour de chaque sprint  
-- **Sprint Retrospective:** après la Sprint Review  
-
----
+- **Sprint Retrospective:** après la Sprint Review 
 
 #### Outils de suivi retenus  
 - **Trello:** gestion des User Stories et tâches  
 - **Burndown Chart:** suivi de la progression du sprint  
 - **Velocity:** mesure de la performance sprint à sprint  
 
----
-
 #### Questions clés et réponses anticipées  
 - *Disponibilité des experts entomologistes pour annotation ?* Planification en avance et sessions coordonnées.  
 - *Risques liés aux conditions météo ?* Tests en simulation et tests en conditions réelles seront effectués.  
 - *Priorisation des fonctionnalités secondaires ?* Elles seront intégrées dans les sprints ultérieurs après validation du MVP.  
-
----
 
 #### Prochaines étapes  
 - Finaliser le backlog produit détaillé.  
@@ -721,7 +710,7 @@ Ce Planning Meeting a permis d’aligner toute l’équipe et les parties prenan
 
 ---
 
-### 4. Sprints Planning  
+### 9.4 Sprints Planning  
 
 #### Sprint 1 : Infrastructure vidéo et pipeline  
 
@@ -812,7 +801,7 @@ Livrer un MVP complet, testé en conditions réelles, avec documentation et inte
 
 ---
 
-### 5. Sprint Review - Fin du cycle de 4 semaines  
+### 9.5 Sprint Review - Fin du cycle de 4 semaines  
 
 **Déroulement :**  
 La Sprint Review s’est tenue le [date], en présence du Product Owner, du Scrum Master, et de toute l’équipe de développement.  
@@ -840,7 +829,7 @@ Cette Sprint Review finale a validé la réussite de la phase MVP, confirmé la 
 
 ---
 
-### 6. Sprint Retrospective - Fin du cycle de 4 semaines  
+### 9.6 Sprint Retrospective - Fin du cycle de 4 semaines  
 
 **Déroulement :**  
 La rétrospective a eu lieu juste après la Sprint Review, avec participation complète de l’équipe Scrum.  
@@ -867,7 +856,7 @@ La rétrospective a eu lieu juste après la Sprint Review, avec participation co
 
 --- 
 
-### 7. Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)
+### 9.7 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)
 
 **Déroulement :**  
 La Sprint Review du sprint 2, qui s’est tenue le [date], a rassemblé le Product Owner, le Scrum Master et l’équipe de développement.
@@ -887,12 +876,12 @@ La Sprint Review du sprint 2, qui s’est tenue le [date], a rassemblé le Produ
 - Priorisation de ces améliorations lors du prochain sprint.  
 - Validation de la poursuite du développement du dashboard.  
 
----
-
 **Conclusion :**  
 Le sprint a permis d’atteindre les objectifs fixés et fournit une base solide pour les développements suivants. Cette Sprint Review a confirmé l’alignement avec les attentes métier et a orienté les priorités à court terme.
 
-### 8. FAQ et Points sensibles à discuter  
+---
+
+### 9.8 FAQ et Points sensibles à discuter  
 
 #### Gestion des risques  
 - **Q : Comment anticiper les retards dus à l’indisponibilité des experts ?**  
@@ -904,7 +893,6 @@ Le sprint a permis d’atteindre les objectifs fixés et fournit une base solide
 - **Q : Comment limiter l’impact des faux positifs sur la crédibilité du système ?**  
   R : Intégration d’un filtrage adapté et validation continue avec retours terrain.  
 
----
 
 #### Communication d’équipe  
 - **Q : Comment éviter les blocages entre équipes spite à des incompréhensions ?**  
