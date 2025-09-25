@@ -43,7 +43,7 @@ Le projet vise à développer un système innovant de détection automatique des
 
 # 2. Product Backlog détaillé 
 
-| Priorité | User Story | Critères d’acceptation clés | Definition of Done | Difficulté | Timebox estimé |
+| Priorité | User Story | Critères d’acceptation clés | Definition of Done | Story Points | Timebox estimé |
 |----------|------------|--------------|-----------------------------|--------------------|------------|
 | 1        | US1 - Identification Frelon (Asiatique/Européen) | - Précision ≥85% sur jeu test                                 | - Modèle intégré dans pipeline et fonctionnel                    | 8            | 7 à 10 jours          |
 |          |                                            | - Classification fiable des 2 types                          | - Validation PO réalisée                                         |              |                       |
