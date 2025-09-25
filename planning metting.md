@@ -33,7 +33,7 @@
 ---
 
 ## Rituels Scrum  
-- Sprint Planning : Lundi 930h-1030h  
+- Sprint Planning : Lundi 9h30-10h30  
 - Daily Scrum : 15 min chaque jour à 9h30  
 - Sprint Review : Dernier jour du sprint
 - Sprint Retrospective : Après Review  
