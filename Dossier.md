@@ -825,6 +825,10 @@ La Sprint Review s’est tenue le 26/09/2025, en présence du Product Owner, du 
 - Le PO a souligné la qualité du travail et la conformité avec le cahier des charges.  
 - Des suggestions ont été émises pour prioriser les traitements de triangulation des nids et améliorer encore l’ergonomie mobile du dashboard.  
 
+<div align="center">
+   <img src="images/burndown.png" alt="Burndown Chart" style="width: 80%; max-width: 900px;">
+</div>
+
 **Décisions prises :**  
 - Ajout au backlog des User Stories secondaires pour la triangulation et détection multi-nids.  
 - Organisation d’une formation utilisateur prévue dans le prochain sprint.  
