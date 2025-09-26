@@ -46,10 +46,10 @@
       - [Questions clés et réponses anticipées](#questions-clés-et-réponses-anticipées)
       - [Prochaines étapes](#prochaines-étapes)
     - [9.4 Sprints Planning](#94-sprints-planning)
-      - [Sprint 1 : Infrastructure vidéo et pipeline](#sprint-1--infrastructure-vidéo-et-pipeline)
-      - [Sprint 2 : IA de détection et classification](#sprint-2--ia-de-détection-et-classification)
-      - [Sprint 3 : Alertes et dashboard](#sprint-3--alertes-et-dashboard)
-      - [Sprint 4 : Finalisation MVP et déploiement](#sprint-4--finalisation-mvp-et-déploiement)
+      - [Semaine 1 : Infrastructure vidéo et pipeline](#semaine-1--infrastructure-vidéo-et-pipeline)
+      - [Semaine 2 : IA de détection et classification](#semaine-2--ia-de-détection-et-classification)
+      - [Semaine 3 : Alertes et dashboard](#semaine-3--alertes-et-dashboard)
+      - [Semaine 4 : Finalisation MVP et déploiement](#semaine-4--finalisation-mvp-et-déploiement)
     - [9.5 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)](#95-sprint-review-hebdomadaire-exemple-pour-sprint-2--ia-de-classification)
     - [9.6 Sprint Review - Fin du cycle de 4 semaines](#96-sprint-review---fin-du-cycle-de-4-semaines)
     - [9.7 Sprint Retrospective - Fin du cycle de 4 semaines](#97-sprint-retrospective---fin-du-cycle-de-4-semaines)
@@ -683,10 +683,10 @@ gantt
 ---
 
 #### Rituels Scrum planifiés  
-- **Sprint Planning:** lundi 9h-10h  
-- **Daily Scrum:** 15 minutes chaque jour à 9h30  
-- **Sprint Review:** dernier jour de chaque sprint  
-- **Sprint Retrospective:** après la Sprint Review 
+- **Sprint Planning :** lundi 9h-10h  
+- **Daily Scrum :** 15 minutes chaque jour à 9h30  
+- **Sprint Review :** dernier jour du sprint 4 avec toute l'équipe et le client 
+- **Sprint Retrospective :** après la Sprint Review avec toute l'équipe --> Retex
 
 #### Outils de suivi retenus  
 - **Trello:** gestion des User Stories et tâches  
@@ -712,7 +712,7 @@ Ce Planning Meeting a permis d’aligner toute l’équipe et les parties prenan
 
 ### 9.4 Sprints Planning  
 
-#### Sprint 1 : Infrastructure vidéo et pipeline  
+#### Semaine 1 : Infrastructure vidéo et pipeline  
 
 **Sprint Goal :**  
 Installer un système de capture vidéo robuste et stable en toutes conditions météo avec un flux vidéo prêt pour traitement temps réel.  
@@ -733,7 +733,7 @@ Installer un système de capture vidéo robuste et stable en toutes conditions m
 
 ---
 
-#### Sprint 2 : IA de détection et classification  
+#### Semaine 2 : IA de détection et classification  
 
 **Sprint Goal :**  
 Constituer un dataset annoté et entraîner un modèle IA capable de différencier frelons asiatiques, européens, abeilles, bourdons, et guêpes avec précision ≥85%.  
@@ -754,7 +754,7 @@ Constituer un dataset annoté et entraîner un modèle IA capable de différenci
 
 ---
 
-#### Sprint 3 : Alertes et dashboard  
+#### Semaine 3 : Alertes et dashboard  
 
 **Sprint Goal :**  
 Développer le système de notifications (mail, SMS, push) et un dashboard web responsive pour le suivi des attaques.  
@@ -777,7 +777,7 @@ Développer le système de notifications (mail, SMS, push) et un dashboard web r
 
 ---
 
-#### Sprint 4 : Finalisation MVP et déploiement  
+#### Semaine 4 : Finalisation MVP et déploiement  
 
 **Sprint Goal :**  
 Livrer un MVP complet, testé en conditions réelles, avec documentation et interface d’administration.  
@@ -803,26 +803,7 @@ Livrer un MVP complet, testé en conditions réelles, avec documentation et inte
 
 ### 9.5 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)
 
-**Déroulement :**  
-La Sprint Review du sprint 2, qui s’est tenue le 12/09/2025, a rassemblé le Product Owner, le Scrum Master et l’équipe de développement.
 
-**Livrables présentés :**  
-- Le dataset constitué de 2 400 images annotées par les experts entomologistes a été finalisé.  
-- Le modèle IA CNN (type YOLO) a été entraîné avec une précision de 87% sur le jeu de test, dépassant l’objectif de 85%.  
-- Le modèle a été intégré dans le pipeline vidéo avec des tests d’inférence en temps réel concluants.  
-
-**Feedback du Product Owner :**  
-- Validation de la performance du modèle et de la qualité du dataset.  
-- Proposition d’amélioration pour réduire les faux positifs, particulièrement sur certaines abeilles.  
-- Demande d’inclure des statistiques horaires dans le dashboard pour le sprint suivant.  
-
-**Décisions prises :**  
-- Ajout d’une User Story pour ajustement du seuil de détection et filtrage des faux positifs.  
-- Priorisation de ces améliorations lors du prochain sprint.  
-- Validation de la poursuite du développement du dashboard.  
-
-**Conclusion :**  
-Le sprint a permis d’atteindre les objectifs fixés et fournit une base solide pour les développements suivants. Cette Sprint Review a confirmé l’alignement avec les attentes métier et a orienté les priorités à court terme.
 
 ---
 
