@@ -678,6 +678,10 @@ Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de
 | Semaine 4 | Finalisation MVP et déploiement   | US5, US6                      | Photo intrus, tests 72h, documentation livrée       |
 
 
+<div align="center">
+   <img src="Images/Gantt.png" alt="Gantt" style="width: 50%; max-width: 900px;">
+</div>
+
 ```mermaid
 
 gantt
@@ -737,6 +741,10 @@ Ce Planning Meeting a permis d’aligner toute l’équipe et les parties prenan
 
 ### 9.4 Sprints Planning  
 
+<div align="center">
+   <img src="Images/Tableau KANBAN_2.png" alt="Tableau KANBAN_2" style="width: 50%; max-width: 900px;">
+</div>
+
 #### Semaine 1 : Infrastructure vidéo et pipeline  
 
 **Sprint Goal :**  
@@ -755,6 +763,10 @@ Installer un système de capture vidéo robuste et stable en toutes conditions m
 - Caméra fonctionnelle 24h/24 en conditions réelles  
 - Flux vidéo stable et continu  
 - Tests météo validés avec rapport d’évaluation  
+
+<div align="center">
+   <img src="Images/Tableau KANBAN_3.png" alt="Tableau KANBAN_3" style="width: 50%; max-width: 900px;">
+</div>
 
 ---
 
@@ -776,6 +788,10 @@ Constituer un dataset annoté et entraîner un modèle IA capable de différenci
 - Dataset complet et validé  
 - Modèle entraîné avec précision testée  
 - Modèle intégré dans pipeline, tests d’inférence réussis  
+
+<div align="center">
+   <img src="Images/Tableau KANBAN_4.png" alt="Tableau KANBAN_4" style="width: 50%; max-width: 900px;">
+</div>
 
 ---
 
@@ -799,6 +815,9 @@ Développer le système de notifications (mail, SMS, push) et un dashboard web r
 - Dashboard accessible et affichant les données en temps réel  
 - Données historiques sauvegardées et exploitables  
 
+<div align="center">
+   <img src="Images/Tableau KANBAN_5.png" alt="Tableau KANBAN_5" style="width: 50%; max-width: 900px;">
+</div>
 ---
 
 #### Semaine 4 : Finalisation MVP et déploiement  
@@ -822,6 +841,10 @@ Livrer un MVP complet, testé en conditions réelles, avec documentation et inte
 - MVP validé par le client  
 - Documentation livrée  
 - Système opérationnel en production  
+
+<div align="center">
+   <img src="Images/Tableau KANBAN_6.png" alt="Tableau KANBAN_6" style="width: 50%; max-width: 900px;">
+</div>
 
 ---
 
