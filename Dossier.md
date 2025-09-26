@@ -760,9 +760,8 @@ Constituer un dataset annoté et entraîner un modèle IA capable de différenci
 Développer le système de notifications (mail, SMS, push) et un dashboard web responsive pour le suivi des attaques.  
 
 **User Stories sélectionnées :**  
-- US3 - Alerte immédiate (Mail/SMS)  
-- US4 - Alerte immédiate (push mobile)  
 - US2 - Dashboard statistiques (finalisation)  
+- US3 - Alerte immédiate (Mail/SMS)   
 
 **Tâches principales :**  
 - Développement API notifications multi-canal  
@@ -783,8 +782,8 @@ Développer le système de notifications (mail, SMS, push) et un dashboard web r
 Livrer un MVP complet, testé en conditions réelles, avec documentation et interface d’administration.  
 
 **User Stories sélectionnées :**  
-- US5 - Capture photo haute résolution des intrus  
-- US6 - Filtrage météo faux positifs  
+- US4 - Capture photo haute résolution des intrus  
+- US5 - Filtrage météo faux positifs  
 - Documentation utilisateur et technique  
 - Tests d’endurance système (72h continu)  
 
