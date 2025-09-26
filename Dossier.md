@@ -1,4 +1,29 @@
-# Scrum en Théâtre – Cours Structuré Chronologiquement <!-- omit in toc -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 style="text-align: center;"> Scrum en Théâtre </h1> <!-- omit in toc -->
+<br>
+<br>
+<h1 style="text-align: center;">
+  <em> Quand l’Agilité Devient un Art : </em><br>
+  <em> Cours Méthodologique & Mise en Situation Théâtrale </em>
+</h1> <!-- omit in toc -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="text-align: center;"><em>Olivier BONNIN, Kahina ABBAD, Romuald COURTOIS</em></p>
+<br>
+<p style="text-align: center;"><em>26/09/2025</em></p>
+
+
+<div style="page-break-after: always;"></div>
 
 # Sommaire <!-- omit in toc -->
 - [1. Contexte et Fondamentaux – Les Bases du Spectacle](#1-contexte-et-fondamentaux--les-bases-du-spectacle)
@@ -57,7 +82,7 @@
       - [Gestion des risques](#gestion-des-risques)
       - [Communication d’équipe](#communication-déquipe)
 
----
+<div style="page-break-after: always;"></div>
 
 # 1. Contexte et Fondamentaux – Les Bases du Spectacle
 
@@ -760,9 +785,8 @@ Constituer un dataset annoté et entraîner un modèle IA capable de différenci
 Développer le système de notifications (mail, SMS, push) et un dashboard web responsive pour le suivi des attaques.  
 
 **User Stories sélectionnées :**  
-- US3 - Alerte immédiate (Mail/SMS)  
-- US4 - Alerte immédiate (push mobile)  
 - US2 - Dashboard statistiques (finalisation)  
+- US3 - Alerte immédiate (Mail/SMS)   
 
 **Tâches principales :**  
 - Développement API notifications multi-canal  
@@ -783,8 +807,8 @@ Développer le système de notifications (mail, SMS, push) et un dashboard web r
 Livrer un MVP complet, testé en conditions réelles, avec documentation et interface d’administration.  
 
 **User Stories sélectionnées :**  
-- US5 - Capture photo haute résolution des intrus  
-- US6 - Filtrage météo faux positifs  
+- US4 - Capture photo haute résolution des intrus  
+- US5 - Filtrage météo faux positifs  
 - Documentation utilisateur et technique  
 - Tests d’endurance système (72h continu)  
 
@@ -826,7 +850,7 @@ La Sprint Review s’est tenue le 26/09/2025, en présence du Product Owner, du 
 - Des suggestions ont été émises pour prioriser les traitements de triangulation des nids et améliorer encore l’ergonomie mobile du dashboard.  
 
 <div align="center">
-   <img src="Images/burndown.png" alt="Burndown Chart" style="width: 80%; max-width: 900px;">
+   <img src="Images/burndown.png" alt="Burndown Chart" style="width: 50%; max-width: 900px;">
 </div>
 
 **Décisions prises :**  
