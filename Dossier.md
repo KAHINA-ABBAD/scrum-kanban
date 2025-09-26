@@ -826,7 +826,7 @@ La Sprint Review s’est tenue le 26/09/2025, en présence du Product Owner, du 
 - Des suggestions ont été émises pour prioriser les traitements de triangulation des nids et améliorer encore l’ergonomie mobile du dashboard.  
 
 <div align="center">
-   <img src="images/burndown.png" alt="Burndown Chart" style="width: 80%; max-width: 900px;">
+   <img src="Images/burndown.png" alt="Burndown Chart" style="width: 80%; max-width: 900px;">
 </div>
 
 **Décisions prises :**  
