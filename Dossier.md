@@ -804,7 +804,7 @@ Livrer un MVP complet, testé en conditions réelles, avec documentation et inte
 ### 9.5 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)
 
 **Déroulement :**  
-La Sprint Review du sprint 2, qui s’est tenue le [date], a rassemblé le Product Owner, le Scrum Master et l’équipe de développement.
+La Sprint Review du sprint 2, qui s’est tenue le 12/09/2025, a rassemblé le Product Owner, le Scrum Master et l’équipe de développement.
 
 **Livrables présentés :**  
 - Le dataset constitué de 2 400 images annotées par les experts entomologistes a été finalisé.  
@@ -829,7 +829,7 @@ Le sprint a permis d’atteindre les objectifs fixés et fournit une base solide
 ### 9.6 Sprint Review - Fin du cycle de 4 semaines  
 
 **Déroulement :**  
-La Sprint Review s’est tenue le [date], en présence du Product Owner, du Scrum Master, et de toute l’équipe de développement.  
+La Sprint Review s’est tenue le 26/09/2025, en présence du Product Owner, du Scrum Master, et de toute l’équipe de développement et le client.  
 
 **Livrables présentés :**  
 - Le système complet de capture vidéo a été déployé en conditions réelles et a fonctionné de manière stable malgré diverses conditions météo.  
@@ -862,7 +862,7 @@ La rétrospective a eu lieu juste après la Sprint Review, avec participation co
 **Points positifs :**  
 - Excellente collaboration entre les membres, particulièrement lors du sprint IA, grâce à des échanges réguliers avec les experts entomologistes.  
 - Respect global des délais malgré certaines difficultés techniques.  
-- Mise en place efficace des outils de suivi (Trello, burndown chart) facilitant la transparence.  
+- Mise en place efficace des outils de suivi (Trello, Gantt, burndown chart) facilitant la transparence.  
 
 **Difficultés rencontrées :**  
 - Le délai pour constituer un dataset de qualité a été plus long que prévu, impactant le planning initial.  
