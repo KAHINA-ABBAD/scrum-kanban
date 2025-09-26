@@ -50,9 +50,9 @@
       - [Sprint 2 : IA de détection et classification](#sprint-2--ia-de-détection-et-classification)
       - [Sprint 3 : Alertes et dashboard](#sprint-3--alertes-et-dashboard)
       - [Sprint 4 : Finalisation MVP et déploiement](#sprint-4--finalisation-mvp-et-déploiement)
-    - [9.5 Sprint Review - Fin du cycle de 4 semaines](#95-sprint-review---fin-du-cycle-de-4-semaines)
-    - [9.6 Sprint Retrospective - Fin du cycle de 4 semaines](#96-sprint-retrospective---fin-du-cycle-de-4-semaines)
-    - [9.7 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)](#97-sprint-review-hebdomadaire-exemple-pour-sprint-2--ia-de-classification)
+    - [9.5 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)](#95-sprint-review-hebdomadaire-exemple-pour-sprint-2--ia-de-classification)
+    - [9.6 Sprint Review - Fin du cycle de 4 semaines](#96-sprint-review---fin-du-cycle-de-4-semaines)
+    - [9.7 Sprint Retrospective - Fin du cycle de 4 semaines](#97-sprint-retrospective---fin-du-cycle-de-4-semaines)
     - [9.8 FAQ et Points sensibles à discuter](#98-faq-et-points-sensibles-à-discuter)
       - [Gestion des risques](#gestion-des-risques)
       - [Communication d’équipe](#communication-déquipe)
@@ -801,7 +801,32 @@ Livrer un MVP complet, testé en conditions réelles, avec documentation et inte
 
 ---
 
-### 9.5 Sprint Review - Fin du cycle de 4 semaines  
+### 9.5 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)
+
+**Déroulement :**  
+La Sprint Review du sprint 2, qui s’est tenue le [date], a rassemblé le Product Owner, le Scrum Master et l’équipe de développement.
+
+**Livrables présentés :**  
+- Le dataset constitué de 2 400 images annotées par les experts entomologistes a été finalisé.  
+- Le modèle IA CNN (type YOLO) a été entraîné avec une précision de 87% sur le jeu de test, dépassant l’objectif de 85%.  
+- Le modèle a été intégré dans le pipeline vidéo avec des tests d’inférence en temps réel concluants.  
+
+**Feedback du Product Owner :**  
+- Validation de la performance du modèle et de la qualité du dataset.  
+- Proposition d’amélioration pour réduire les faux positifs, particulièrement sur certaines abeilles.  
+- Demande d’inclure des statistiques horaires dans le dashboard pour le sprint suivant.  
+
+**Décisions prises :**  
+- Ajout d’une User Story pour ajustement du seuil de détection et filtrage des faux positifs.  
+- Priorisation de ces améliorations lors du prochain sprint.  
+- Validation de la poursuite du développement du dashboard.  
+
+**Conclusion :**  
+Le sprint a permis d’atteindre les objectifs fixés et fournit une base solide pour les développements suivants. Cette Sprint Review a confirmé l’alignement avec les attentes métier et a orienté les priorités à court terme.
+
+---
+
+### 9.6 Sprint Review - Fin du cycle de 4 semaines  
 
 **Déroulement :**  
 La Sprint Review s’est tenue le [date], en présence du Product Owner, du Scrum Master, et de toute l’équipe de développement.  
@@ -829,7 +854,7 @@ Cette Sprint Review finale a validé la réussite de la phase MVP, confirmé la 
 
 ---
 
-### 9.6 Sprint Retrospective - Fin du cycle de 4 semaines  
+### 9.7 Sprint Retrospective - Fin du cycle de 4 semaines  
 
 **Déroulement :**  
 La rétrospective a eu lieu juste après la Sprint Review, avec participation complète de l’équipe Scrum.  
@@ -855,31 +880,6 @@ La rétrospective a eu lieu juste après la Sprint Review, avec participation co
 - Renforcer la communication quotidienne pour anticiper rapidement les blocages.  
 
 --- 
-
-### 9.7 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)
-
-**Déroulement :**  
-La Sprint Review du sprint 2, qui s’est tenue le [date], a rassemblé le Product Owner, le Scrum Master et l’équipe de développement.
-
-**Livrables présentés :**  
-- Le dataset constitué de 2 400 images annotées par les experts entomologistes a été finalisé.  
-- Le modèle IA CNN (type YOLO) a été entraîné avec une précision de 87% sur le jeu de test, dépassant l’objectif de 85%.  
-- Le modèle a été intégré dans le pipeline vidéo avec des tests d’inférence en temps réel concluants.  
-
-**Feedback du Product Owner :**  
-- Validation de la performance du modèle et de la qualité du dataset.  
-- Proposition d’amélioration pour réduire les faux positifs, particulièrement sur certaines abeilles.  
-- Demande d’inclure des statistiques horaires dans le dashboard pour le sprint suivant.  
-
-**Décisions prises :**  
-- Ajout d’une User Story pour ajustement du seuil de détection et filtrage des faux positifs.  
-- Priorisation de ces améliorations lors du prochain sprint.  
-- Validation de la poursuite du développement du dashboard.  
-
-**Conclusion :**  
-Le sprint a permis d’atteindre les objectifs fixés et fournit une base solide pour les développements suivants. Cette Sprint Review a confirmé l’alignement avec les attentes métier et a orienté les priorités à court terme.
-
----
 
 ### 9.8 FAQ et Points sensibles à discuter  
 
