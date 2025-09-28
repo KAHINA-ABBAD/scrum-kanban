@@ -74,6 +74,7 @@
       - [Semaine 1 : Infrastructure vidéo et pipeline](#semaine-1--infrastructure-vidéo-et-pipeline)
       - [Semaine 2 : IA de détection et classification](#semaine-2--ia-de-détection-et-classification)
       - [Semaine 3 : Alertes et dashboard](#semaine-3--alertes-et-dashboard)
+  - [](#)
       - [Semaine 4 : Finalisation MVP et déploiement](#semaine-4--finalisation-mvp-et-déploiement)
     - [9.5 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)](#95-sprint-review-hebdomadaire-exemple-pour-sprint-2--ia-de-classification)
     - [9.6 Sprint Review - Fin du cycle de 4 semaines](#96-sprint-review---fin-du-cycle-de-4-semaines)
@@ -142,7 +143,7 @@ Ces piliers, inspirés du contrôle empirique des processus, structurent la mét
 
 **3. Adaptation** : Ajustement continu basé sur les observations et apprentissages, à l'instar des modifications apportées après chaque représentation. L'adaptation est la conséquence logique de l'inspection et doit être rapide pour être efficace.
 
----
+<div style="page-break-after: always;"></div>
 
 # 4. L'Équipe Scrum – Distribution des Rôles Avant le Lever de Rideau
 
@@ -488,7 +489,7 @@ Cette progression non-linéaire reflète l'incertitude croissante pour les tâch
 - Améliore la compréhension collective des tâches
 - Crée l'engagement de l'équipe sur les estimations
 
----
+<div style="page-break-after: always;"></div>
 
 # 8. Concepts Clés Complémentaires – Techniques Avancées de la Troupe
 
@@ -579,11 +580,9 @@ Investigation limitée dans le temps pour réduire l'incertitude technique ou fo
 **Hardening Sprint :**
 Sprint dédié à la stabilisation et à la préparation du déploiement. À éviter si possible grâce à une bonne Definition of Done.
 
----
+<div style="page-break-after: always;"></div>
 
 # 9. Mise en Pratique Théâtrale – Ateliers et Jeux de Rôle Immersifs
-
----
 
 ## Projet SCRUM - Détection d’attaques de frelons  
 
@@ -677,37 +676,11 @@ Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de
 | Semaine 3 | Alertes et dashboard               | US3, US4                      | Notifications fonctionnelles, dashboard accessible  |
 | Semaine 4 | Finalisation MVP et déploiement   | US5, US6                      | Photo intrus, tests 72h, documentation livrée       |
 
-
+---
+<br>
 <div align="center">
-   <img src="Images/Gantt.png" alt="Gantt" style="width: 50%; max-width: 900px;">
+   <img src="Images/Gantt.png" alt="Gantt" style="width: 100%; max-width: 900px;">
 </div>
-
-```mermaid
-
-gantt
-   title Gantt MVP - Detection Automatisee des Frelons Asiatiques (4 Sprints)
-    dateFormat YYYY-MM-DD
-    axisFormat %d/%m
-
-    section Infrastructure vidéo et pipeline 
-    Installation camera pipeline           :done,    cam1, 2025-09-01, 7d
-    Tests resistance                       :done,    test1, 2025-09-06, 2d
-
-    section IA classification des frelons 
-    Dataset annotation                     :done,    data1, 2025-09-09, 3d
-    Entrainement IA                        :done,    model1, 2025-09-12, 4d
-
-    section Alertes et dashboard 
-    Notifications mail SMS                 :done,  notif1, 2025-09-16, 3d
-    Push mobile                            :done,  notif2, 2025-09-19, 2d
-    Dashboard web                          :done,  dash2, 2025-09-20, 3d
-
-    section Finalisation MVP    et déploiement
-    Capture photo intrus                   :active,  photo1, 2025-09-23, 2d
-    Filtrage meteo                         :active,  filt1, 2025-09-25, 3d
-    Documentation tests                    :active,  doc1, 2025-09-26, 3d
-
-```
 
 ---
 
@@ -742,7 +715,7 @@ Ce Planning Meeting a permis d’aligner toute l’équipe et les parties prenan
 ### 9.4 Sprints Planning  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_2.png" alt="Tableau KANBAN_2" style="width: 50%; max-width: 900px;">
+   <img src="Images/Tableau KANBAN_2.png" alt="Tableau KANBAN_2" style="width: 100%; max-width: 900px;">
 </div>
 
 #### Semaine 1 : Infrastructure vidéo et pipeline  
@@ -765,7 +738,7 @@ Installer un système de capture vidéo robuste et stable en toutes conditions m
 - Tests météo validés avec rapport d’évaluation  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_3.png" alt="Tableau KANBAN_3" style="width: 50%; max-width: 900px;">
+   <img src="Images/Tableau KANBAN_3.png" alt="Tableau KANBAN_3" style="width: 100%; max-width: 900px;">
 </div>
 
 ---
@@ -790,7 +763,7 @@ Constituer un dataset annoté et entraîner un modèle IA capable de différenci
 - Modèle intégré dans pipeline, tests d’inférence réussis  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_4.png" alt="Tableau KANBAN_4" style="width: 50%; max-width: 900px;">
+   <img src="Images/Tableau KANBAN_4.png" alt="Tableau KANBAN_4" style="width: 100%; max-width: 900px;">
 </div>
 
 ---
@@ -816,7 +789,7 @@ Développer le système de notifications (mail, SMS, push) et un dashboard web r
 - Données historiques sauvegardées et exploitables  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_5.png" alt="Tableau KANBAN_5" style="width: 50%; max-width: 900px;">
+   <img src="Images/Tableau KANBAN_5.png" alt="Tableau KANBAN_5" style="width: 100%; max-width: 900px;">
 </div>
 ---
 
@@ -843,7 +816,7 @@ Livrer un MVP complet, testé en conditions réelles, avec documentation et inte
 - Système opérationnel en production  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_6.png" alt="Tableau KANBAN_6" style="width: 50%; max-width: 900px;">
+   <img src="Images/Tableau KANBAN_6.png" alt="Tableau KANBAN_6" style="width: 100%; max-width: 900px;">
 </div>
 
 ---
@@ -873,7 +846,7 @@ La Sprint Review s’est tenue le 26/09/2025, en présence du Product Owner, du 
 - Des suggestions ont été émises pour prioriser les traitements de triangulation des nids et améliorer encore l’ergonomie mobile du dashboard.  
 
 <div align="center">
-   <img src="Images/burndown.png" alt="Burndown Chart" style="width: 50%; max-width: 900px;">
+   <img src="Images/burndown.png" alt="Burndown Chart" style="width: 70%; max-width: 900px;">
 </div>
 
 **Décisions prises :**  
