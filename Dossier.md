@@ -742,7 +742,7 @@ Ce Planning Meeting a permis d’aligner toute l’équipe et les parties prenan
 ### 9.4 Sprints Planning  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_2.png" alt="Tableau KANBAN_2" style="width: 50%; max-width: 900px;">
+   <img src="Images/Sprint Backlog.png" alt="Sprint Backlog" style="width: 50%; max-width: 900px;">
 </div>
 
 #### Semaine 1 : Infrastructure vidéo et pipeline  
@@ -765,7 +765,7 @@ Installer un système de capture vidéo robuste et stable en toutes conditions m
 - Tests météo validés avec rapport d’évaluation  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_3.png" alt="Tableau KANBAN_3" style="width: 50%; max-width: 900px;">
+   <img src="Images/KANBANs1.png" alt="KANBANs1" style="width: 50%; max-width: 900px;">
 </div>
 
 ---
@@ -790,7 +790,7 @@ Constituer un dataset annoté et entraîner un modèle IA capable de différenci
 - Modèle intégré dans pipeline, tests d’inférence réussis  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_4.png" alt="Tableau KANBAN_4" style="width: 50%; max-width: 900px;">
+   <img src="Images/KANBANs2.png" alt="KANBANs2" style="width: 50%; max-width: 900px;">
 </div>
 
 ---
@@ -816,7 +816,7 @@ Développer le système de notifications (mail, SMS, push) et un dashboard web r
 - Données historiques sauvegardées et exploitables  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_5.png" alt="Tableau KANBAN_5" style="width: 50%; max-width: 900px;">
+   <img src="Images/KANBANs3.png" alt="KANBANs3" style="width: 50%; max-width: 900px;">
 </div>
 ---
 
@@ -843,7 +843,7 @@ Livrer un MVP complet, testé en conditions réelles, avec documentation et inte
 - Système opérationnel en production  
 
 <div align="center">
-   <img src="Images/Tableau KANBAN_6.png" alt="Tableau KANBAN_6" style="width: 50%; max-width: 900px;">
+   <img src="Images/KANBANs4.png" alt="KANBANs4" style="width: 50%; max-width: 900px;">
 </div>
 
 ---
