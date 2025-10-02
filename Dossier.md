@@ -62,23 +62,23 @@
       - [Objectif du projet](#objectif-du-projet)
       - [Problématique à résoudre](#problématique-à-résoudre)
       - [Organisation Scrum : rôles et missions](#organisation-scrum--rôles-et-missions)
-    - [9.2 Product Backlog détaillé](#92-product-backlog-détaillé)
-    - [9.3 Planning Meeting](#93-planning-meeting)
+    - [9.2 Planning Meeting](#92-planning-meeting)
       - [Objectifs du Planning Meeting](#objectifs-du-planning-meeting)
+      - [Planning Poker](#planning-poker)
+      - [Product Backlog détaillé](#product-backlog-détaillé)
       - [Découpage en Sprints](#découpage-en-sprints)
       - [Rituels Scrum planifiés](#rituels-scrum-planifiés)
       - [Outils de suivi retenus](#outils-de-suivi-retenus)
       - [Questions clés et réponses anticipées](#questions-clés-et-réponses-anticipées)
       - [Prochaines étapes](#prochaines-étapes)
-    - [9.4 Sprints Planning](#94-sprints-planning)
+    - [9.3 Sprints Planning](#93-sprints-planning)
       - [Semaine 1 : Infrastructure vidéo et pipeline](#semaine-1--infrastructure-vidéo-et-pipeline)
       - [Semaine 2 : IA de détection et classification](#semaine-2--ia-de-détection-et-classification)
       - [Semaine 3 : Alertes et dashboard](#semaine-3--alertes-et-dashboard)
       - [Semaine 4 : Finalisation MVP et déploiement](#semaine-4--finalisation-mvp-et-déploiement)
-    - [9.5 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)](#95-sprint-review-hebdomadaire-exemple-pour-sprint-2--ia-de-classification)
-    - [9.6 Sprint Review - Fin du cycle de 4 semaines](#96-sprint-review---fin-du-cycle-de-4-semaines)
-    - [9.7 Sprint Retrospective - Fin du cycle de 4 semaines](#97-sprint-retrospective---fin-du-cycle-de-4-semaines)
-    - [9.8 FAQ et Points sensibles à discuter](#98-faq-et-points-sensibles-à-discuter)
+    - [9.4 Sprint Review - Fin du cycle de 4 semaines](#94-sprint-review---fin-du-cycle-de-4-semaines)
+    - [9.5 Sprint Retrospective - Fin du cycle de 4 semaines](#95-sprint-retrospective---fin-du-cycle-de-4-semaines)
+    - [9.6 FAQ et Points sensibles à discuter](#96-faq-et-points-sensibles-à-discuter)
       - [Gestion des risques](#gestion-des-risques)
       - [Communication d’équipe](#communication-déquipe)
 
@@ -142,7 +142,7 @@ Ces piliers, inspirés du contrôle empirique des processus, structurent la mét
 
 **3. Adaptation** : Ajustement continu basé sur les observations et apprentissages, à l'instar des modifications apportées après chaque représentation. L'adaptation est la conséquence logique de l'inspection et doit être rapide pour être efficace.
 
----
+<div style="page-break-after: always;"></div>
 
 # 4. L'Équipe Scrum – Distribution des Rôles Avant le Lever de Rideau
 
@@ -488,7 +488,7 @@ Cette progression non-linéaire reflète l'incertitude croissante pour les tâch
 - Améliore la compréhension collective des tâches
 - Crée l'engagement de l'équipe sur les estimations
 
----
+<div style="page-break-after: always;"></div>
 
 # 8. Concepts Clés Complémentaires – Techniques Avancées de la Troupe
 
@@ -579,11 +579,9 @@ Investigation limitée dans le temps pour réduire l'incertitude technique ou fo
 **Hardening Sprint :**
 Sprint dédié à la stabilisation et à la préparation du déploiement. À éviter si possible grâce à une bonne Definition of Done.
 
----
+<div style="page-break-after: always;"></div>
 
 # 9. Mise en Pratique Théâtrale – Ateliers et Jeux de Rôle Immersifs
-
----
 
 ## Projet SCRUM - Détection d’attaques de frelons  
 
@@ -621,7 +619,34 @@ L’objectif de ce projet est de développer un système intelligent de surveill
 - **Équipe de développement : Kahina (et autres membres)**  
   Responsable de la réalisation technique, elle conçoit, développe, teste et intègre les fonctionnalités. L’équipe est auto-organisée et collabore étroitement avec le PO pour livrer les User Stories définies dans le sprint.
 
-### 9.2 Product Backlog détaillé 
+
+### 9.2 Planning Meeting  
+
+*Début du Planning Meeting*
+
+**Date : 01/09/2025**  
+**Participants : Olivier (PO), Romuald (Scrum Master), Kahina (Développeur)**
+
+---
+
+#### Objectifs du Planning Meeting  
+- Valider la vision globale du projet et ses objectifs métiers.  
+- Découper le projet en Sprints clairs avec des objectifs précis.  
+- Sélectionner les User Stories prioritaires pour chaque sprint.  
+- Estimer la charge et définir la velocity prévisionnelle.  
+- Organiser les rituels Scrum et outils de suivi.  
+
+#### Planning Poker
+
+User Stories  |  US1 - Identification Frelon (Asiatique/Européen)  |  US2 - Dashboard Statistiques Quotidiennes  |  US3 - Alerte Immédiate (Mail/SMS)  |  US4 - Capture Photo Intrus  |  US5 - Filtrage météo (éviter faux positifs)  |  US6 - Gestion nuage d’abeilles / multiples ruches  |  US7 - Triangulation position du Nid  |  US8 - Détection de plusieurs Nids
+--------------|----------------------------------------------------|---------------------------------------------|-------------------------------------|------------------------------|-----------------------------------------------|-----------------------------------------------------|---------------------------------------|-----------------------------------|
+Olivier       |  8                                                 |  5                                          |  5                                  |  8                           |  8                                            |  5                                                  |  13                                   |  13                               
+Romuald       |  8                                                 |  8                                          |  5                                  |  8                           |  8                                            |  8                                                  |  13                                   |  13                               
+Kahina        |  8                                                 |  5                                          |  3                                  |  8                           |  8                                            |  8                                                  |  13                                   |  8                                
+
+---
+
+#### Product Backlog détaillé 
 
 | Priorité | User Story | Critères d’acceptation clés | Definition of Done | Story Points | Timebox estimé |
 |----------|------------|--------------|-----------------------------|--------------------|------------|
@@ -646,26 +671,6 @@ L’objectif de ce projet est de développer un système intelligent de surveill
 | 3        | US8 - Détection de plusieurs Nids             | - Détection d’au moins 2 nids distincts >80% précision       | - Tests validés en scénario multi-nids                          | 13           | 10 à 15 jours         |
 |          |                                            |                                                              | - Rapports et documentation complète                             |              |                       |
 
-Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de gestion choisi, avec checklist, pièces jointes, commentaires et responsabilités assignées.  
-
----
-
-### 9.3 Planning Meeting  
-
-*Début du Planning Meeting*
-
-**Date : 01/09/2025**  
-**Participants : Olivier (PO), Romuald (Scrum Master), Kahina (Développeur)**
-
----
-
-#### Objectifs du Planning Meeting  
-- Valider la vision globale du projet et ses objectifs métiers.  
-- Découper le projet en Sprints clairs avec des objectifs précis.  
-- Sélectionner les User Stories prioritaires pour chaque sprint.  
-- Estimer la charge et définir la velocity prévisionnelle.  
-- Organiser les rituels Scrum et outils de suivi.  
-
 ---
 
 #### Découpage en Sprints  
@@ -681,33 +686,6 @@ Chaque User Story doit être affinée et détaillée dans Trello ou l’outil de
 <div align="center">
    <img src="Images/Gantt.png" alt="Gantt" style="width: 50%; max-width: 900px;">
 </div>
-
-```mermaid
-
-gantt
-   title Gantt MVP - Detection Automatisee des Frelons Asiatiques (4 Sprints)
-    dateFormat YYYY-MM-DD
-    axisFormat %d/%m
-
-    section Infrastructure vidéo et pipeline 
-    Installation camera pipeline           :done,    cam1, 2025-09-01, 7d
-    Tests resistance                       :done,    test1, 2025-09-06, 2d
-
-    section IA classification des frelons 
-    Dataset annotation                     :done,    data1, 2025-09-09, 3d
-    Entrainement IA                        :done,    model1, 2025-09-12, 4d
-
-    section Alertes et dashboard 
-    Notifications mail SMS                 :done,  notif1, 2025-09-16, 3d
-    Push mobile                            :done,  notif2, 2025-09-19, 2d
-    Dashboard web                          :done,  dash2, 2025-09-20, 3d
-
-    section Finalisation MVP    et déploiement
-    Capture photo intrus                   :active,  photo1, 2025-09-23, 2d
-    Filtrage meteo                         :active,  filt1, 2025-09-25, 3d
-    Documentation tests                    :active,  doc1, 2025-09-26, 3d
-
-```
 
 ---
 
@@ -727,6 +705,8 @@ gantt
 - *Risques liés aux conditions météo ?* Tests en simulation et tests en conditions réelles seront effectués.  
 - *Priorisation des fonctionnalités secondaires ?* Elles seront intégrées dans les sprints ultérieurs après validation du MVP.  
 
+<div style="page-break-after: always;"></div>
+
 #### Prochaines étapes  
 - Finaliser le backlog produit détaillé.  
 - Préparer le Sprint Planning 1.  
@@ -739,7 +719,7 @@ Ce Planning Meeting a permis d’aligner toute l’équipe et les parties prenan
 
 ---
 
-### 9.4 Sprints Planning  
+### 9.3 Sprints Planning  
 
 <div align="center">
    <img src="Images/Sprint Backlog.png" alt="Sprint Backlog" style="width: 50%; max-width: 900px;">
@@ -768,7 +748,7 @@ Installer un système de capture vidéo robuste et stable en toutes conditions m
    <img src="Images/KANBANs1.png" alt="KANBANs1" style="width: 50%; max-width: 900px;">
 </div>
 
----
+<div style="page-break-after: always;"></div>
 
 #### Semaine 2 : IA de détection et classification  
 
@@ -818,6 +798,7 @@ Développer le système de notifications (mail, SMS, push) et un dashboard web r
 <div align="center">
    <img src="Images/KANBANs3.png" alt="KANBANs3" style="width: 50%; max-width: 900px;">
 </div>
+
 ---
 
 #### Semaine 4 : Finalisation MVP et déploiement  
@@ -848,13 +829,7 @@ Livrer un MVP complet, testé en conditions réelles, avec documentation et inte
 
 ---
 
-### 9.5 Sprint Review Hebdomadaire (Exemple pour Sprint 2 : IA de classification)
-
-
-
----
-
-### 9.6 Sprint Review - Fin du cycle de 4 semaines  
+### 9.4 Sprint Review - Fin du cycle de 4 semaines  
 
 **Déroulement :**  
 La Sprint Review s’est tenue le 26/09/2025, en présence du Product Owner, du Scrum Master, et de toute l’équipe de développement et le client.  
@@ -886,7 +861,7 @@ Cette Sprint Review finale a validé la réussite de la phase MVP, confirmé la 
 
 ---
 
-### 9.7 Sprint Retrospective - Fin du cycle de 4 semaines  
+### 9.5 Sprint Retrospective - Fin du cycle de 4 semaines  
 
 **Déroulement :**  
 La rétrospective a eu lieu juste après la Sprint Review, avec participation complète de l’équipe Scrum.  
@@ -913,7 +888,7 @@ La rétrospective a eu lieu juste après la Sprint Review, avec participation co
 
 --- 
 
-### 9.8 FAQ et Points sensibles à discuter  
+### 9.6 FAQ et Points sensibles à discuter  
 
 #### Gestion des risques  
 - **Q : Comment anticiper les retards dus à l’indisponibilité des experts ?**  
